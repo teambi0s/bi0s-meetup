@@ -94,7 +94,7 @@ h6 {
  * LINK STYLE
  *------------------------------------------*/
 a {
-    color              : #fd367e;
+    color              : 	#000000;
     text-decoration    : none;
     -webkit-transition : all 0.3s ease 0s;
     -moz-transition    : all 0.3s ease 0s;
@@ -149,8 +149,8 @@ ul {
 
 /*btn-primary*/
 .btn-primary {
-    background-color : #fd367e;
-    border-color     : #fd367e;
+    background-color : #48D1CC;
+    border-color     : #48D1CC;
     }
 
 .btn-primary:hover,
@@ -280,7 +280,7 @@ button:focus,
 
 .main-menu .nav li a:hover,
 .main-menu .nav li.active a {
-    color      : #fd367e;
+    color      : #48D1CC;
     background : transparent;
     }
 
@@ -443,7 +443,7 @@ button:focus,
 
 .about-event address {
     font-size   : 15px;
-    color       : #888888;
+  color       : #888888;
     line-height : 1.8em;
     }
 
@@ -620,7 +620,7 @@ button:focus,
     }
 
 /* --------------------------
- * Client Logo 
+ * Client Logo
  *---------------------------*/
 
 .client-logo a img {
@@ -753,3 +753,6 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+ .about{
+
+ }
