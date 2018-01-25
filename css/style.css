@@ -790,10 +790,13 @@ button:focus,
         width:100%;
         position:absolute;
     }
+
     .areas-1{
       float: left;
-    }
+      margin-left: 0;
+      margin-right: 25%;
 
+    }
     .areas-2{
       float: center;
     }
