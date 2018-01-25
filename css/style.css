@@ -125,11 +125,7 @@ p.lead {
     line-height : 1.7em;
     }
 
-ul {
-    margin     : 0;
-    padding    : 0;
-    list-style : none;
-    }
+
 
 /*Button Style*/
 .btn {
@@ -793,4 +789,24 @@ button:focus,
         height:100%;
         width:100%;
         position:absolute;
+    }
+    .list-arrow-right{
+      list-style-type:none;
+        content: "\f3d3";
+        list-style-type: none;
+        padding: 0;
+        position: relative;
+        padding-left: 20px
+        position: absolute;
+        left: 0;
+        color: #4e4e4e;
+        font-family: "Ionicons";
+    }
+    .areas-1{
+      float: left;
+    }
+
+    .areas-2{
+      float: center;
+      padding: 0;
     }
