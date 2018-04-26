@@ -342,7 +342,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-    background            : url("../img/img-jumbotron-bg.jpg");
+    background            : url("../img/jumbotron-background.jpg");
     background-size       : cover;
     padding               : 0;
     margin                : 0;
@@ -403,6 +403,7 @@ button:focus,
     .jumbotron .content p.lead {
         font-size : 15px;
         }
+
     }
 
 /*---------------------------
@@ -622,7 +623,7 @@ button:focus,
 .client-logo a img {
     width              : 100%;
     opacity            : 1;
-    -webkit-transition : all 0.8s ease 0s;
+    -webkit-transmition : all 0.8s ease 0s;
     -moz-transition    : all 0.8s ease 0s;
     -o-transition      : all 0.8s ease 0s;
     transition         : all 0.8s ease 0s;
@@ -800,3 +801,107 @@ button:focus,
     .areas-2{
       float: center;
     }
+#meetup-imgs{
+    float: left;
+    clear: both;
+    margin-right: 25px;
+}
+
+#top-arrange{
+    font-size: 1.2em;
+    text-align: left;
+}
+#the-meet{
+    text-align: center;
+
+}
+#group{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+@media (max-width : 600px){
+    #group{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+.inner_arrange{
+    margin-left: 525px;
+}
+#top-arrange{
+    margin-bottom: 200px;
+}
+#imgkoch {
+    width:300px;
+    height:300px;
+    margin-left:20px;
+}
+#imgamp {
+    width:300px;
+    height:300px;
+    border-radius:60%;
+    margin-left:20px;
+    margin-top:50px;
+    
+    
+}
+#koc {
+    margin-top:50px;
+    text-align: center;
+
+}
+#koc:hover{
+    color: #067bb1;
+}
+#amr {
+    margin-top:10px;
+    margin-left:40px;
+
+}
+#txtkoch {
+    margin-left:70px;
+    margin-bottom:100px;
+}
+#desckoch {
+ font-size:25px;
+ 
+}
+.meet-arrange{
+    margin-bottom: 225px;
+}
+.chapter-heading{
+    margin-left: 45%;
+}
+.chapter-desc{
+    color: rgb(75, 74, 74);
+    font-size: 1.3em;
+}
+.chapter-imgs{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 87%;
+}
+.talk-desc{
+    font-size: 1.2em;
+}
+@media (max-width:600px){
+    .chapter-desc{
+        font-size: 0px;
+    }
+    .chapter-heading{
+        margin-left: 15%;
+    }
+    .chapter-imgs{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 10%;
+    }
+}
+
