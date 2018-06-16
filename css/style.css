@@ -240,7 +240,14 @@ button:focus,
     font-size      : 15px;
     text-transform : uppercase;
     }
-
+.navbar ul ul{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
 @media (max-width : 768px) {
     .navbar {
         padding : 10px;
@@ -904,4 +911,6 @@ button:focus,
         margin-bottom: 10%;
     }
 }
-
+.double-dash{
+    margin-left: 49%;
+}
